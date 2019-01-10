@@ -14,7 +14,7 @@ body{
 .main-header{
   background-color: black;
   
-  background: linear-gradient( rgba(0, 0, 0, .55), rgba(0, 0, 0, .55) ), url("../images/space.jpg") fixed;
+  background: linear-gradient( rgba(0, 0, 0, .55), rgba(0, 0, 0, .55) ), url("./images/space.jpg") fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -205,7 +205,7 @@ body{
 
 .about {
   /* The image used */
-  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url("../images/unforseen pic.jpg") no-repeat center center fixed;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url("./images/unforseen pic.jpg") no-repeat center center fixed;
   /* Full height */
   background-size: contain;
   padding-bottom:10%;
@@ -215,7 +215,7 @@ body{
 
 .projects {
   /* The image used */
-  background: linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .8) ), url("../images/trio.jpg") no-repeat center center fixed;
+  background: linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .8) ), url("./images/trio.jpg") no-repeat center center fixed;
   /* Full height */
   padding-bottom:20%;
   background-size: cover;
@@ -254,7 +254,7 @@ body{
 /*///////////////////////////////////////////////////////////////////////////music ///////////////////////////////////////////////////////////////////////////////*/
 .music {
   /* The image used */
-  background: linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .8) ), url("../images/seouljuice.jpg") fixed;
+  background: linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .8) ), url("./images/seouljuice.jpg") fixed;
 
   /* Full height */
   padding-bottom:5%;
@@ -351,7 +351,7 @@ background-position:center;
 /*////////////////////////////////////////actvitives/////////////////////////////////////////////////////////*/
 .activities {
   /* The image used */
-  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url("../images/theproject.jpg") no-repeat center center fixed;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url("./images/theproject.jpg") no-repeat center center fixed;
   /* Full height */
   height: 100%; 
   background-size: cover;
@@ -366,7 +366,7 @@ background-position:center;
 /*////////////////////////////////////////////////RESUME////////////////////////////////////////////*/
 .resume {
   /* The image used */
-  background: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) ), url("../images/Resume_image.jpg") no-repeat center center;
+  background: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) ), url("./images/Resume_image.jpg") no-repeat center center;
   /* Full height */
   height: 100%; 
   background-size: contain;

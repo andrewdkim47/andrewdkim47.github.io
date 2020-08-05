@@ -366,7 +366,7 @@ background-position:center;
 /*////////////////////////////////////////////////RESUME////////////////////////////////////////////*/
 .resume {
   /* The image used */
-  background: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) ), url("./images/AndrewKimResume.jpg") no-repeat center center;
+  background: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) ) no-repeat center center;
   /* Full height */
   height: 100%; 
   background-size: contain;

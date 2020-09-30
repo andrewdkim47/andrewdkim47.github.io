@@ -1,94 +1,144 @@
 <!-- My website portfolio 5/24/2018 started -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<title>Andrew Kim</title>
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC|Prata" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	  
+	<title>Andrew D. Kim</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="portfolio_style.css">
-	<style>
-
-		body, html {
-		  height: 100%;
-		}
-	</style>
-</head>
 	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC|Prata" rel="stylesheet">
 
+	<!-- Vendor CSS Files -->
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendor/hover/hover.min.css" rel="stylesheet">
+	<link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+	<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+	<!-- Template Main CSS File -->
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
 
 <body>
-	<!--header-->
-	<div class="main-header">
-		<div class="topnav">
-			<a class="active" href="#home"><img border="0" alt="Home" src="images/portfolio-logo.png" ></a>
-			<div class="topnav-right">
-				<a href="https://www.linkedin.com/in/andrewdkim47/">
-					<img border="0" alt="Linkedin" src="images/linkedin.png">
-				</a>
-				<a href="https://www.facebook.com/andrew.kim.3705">
-					<img border="0" alt="Facebook" src="images/facebook.png">
-				</a>
-				<a href="https://www.instagram.com/andrewdkim47_/">
-					<img border="0" alt="Instagram" src="images/insta.png">
-				</a>
-				<a href="https://github.com/andrewdkim47">
-					<img border="0" alt="Github" src="images/github.png">
-				</a>
-				<a href="mailto:andrewdkim47@gmail.com">
-					<img border="0" alt="Contact" src="images/emailicon.png">
-				</a>
+	<!-- ======= Navbar ======= -->
+	<nav id="main-nav">
+		<div class="row">
+		  <div class="container">
+	
+			<div class="logo">
+			  	<a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
 			</div>
+	
+			<div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+	
+			<ul class="nav-menu list-unstyled">
+				<li><a href="index.html" class="smoothScroll">Home</a></li>
+				<li><a href="#about" class="smoothScroll">About</a></li>
+				<li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+				<li><a href="#journal" class="smoothScroll">Blog</a></li>
+				<li><a href="#contact" class="smoothScroll">Contact</a></li>
+			</ul>
+	
+		  	</div>
 		</div>
+	</nav><!-- End Navbar -->
 
+	<!-- ======= Hero Section ======= -->
+	  <div id="hero" class="home">
 
-		<div class="image-header">
-			<h1 class="Header-summary">Andrew Kim,</h1>
-			<!--<img src="images/unforseen pic.jpg" alt="biopic" width="35%" >-->
-			<h2 class="Header-summary-2">Fourth year software engineer studying at the University of Michigan</h2>
+		<div class="container">
+		  	<div class="hero-content">
+				<h1 class="name">I'm Andrew D. Kim<span class="typed"></span></h1>
+				<p class="typed-items" data-typed-person="Andrew Kim">Software Engineer, Full Stack Developer, New Grad</p>
+		
+				<ul class="list-unstyled list-social">
+					<li><a href="https://www.linkedin.com/in/andrewdkim47/"><i class="ion-social-linkedin"></i></a></li>
+					<li><a href="https://www.facebook.com/andrew.kim.3705"><i class="ion-social-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/andrewdkim47_/"><i class="ion-social-instagram"></i></a></li>
+					<li><a href="https://github.com/andrewdkim47"><i class="ion-social-github"></i></a></li>
+					<li><a href="mailto:andrewdkim47@gmail.com"><i class="ion-social-google"></i></a></li>
+				</ul>
+		  	</div>
 		</div>
+	</div><!-- End Hero -->
 
-		<div class="jumplinks">
-				<a href="#jumplink1">
-					ABOUT
-				</a>
-				<a href="#jumplink2">
-					PROJECTS
-				</a>
-				<a href="#jumplink3">
-					MUSIC
-				</a>
-				
-				<a href="#jumplink5">
-					CONTACT
-				</a>			
-				<a href="documents/Andrew Kim Resume.pdf" target="_blank">
-					RESUME.pdf
-				</a>
-		</div>	
-	</div>
-	<!-- end of header-->
-	<a name="jumplink1"></a> 
-	<div class="about">
-
-		<br><br><br>
-		<div class="line-title">
-			<h1 class="line-title-words"><span>About Andrew</span></h1>
+    <!-- ======= About Section ======= -->
+    <div id="about" class="paddsection">
+		<div class="container">
+		  <div class="row justify-content-between">
+  
+			<div class="col-lg-4 ">
+			  <div class="div-img-bg">
+				<div class="about-img">
+				  <img src="assets/img/me.jpg" class="img-responsive" alt="me">
+				</div>
+			  </div>
+			</div>
+  
+			<div class="col-lg-7">
+			  <div class="about-descr">
+  
+				<p class="p-heading">Senior at the University of Michigan studying Computer Science and Music. My expertise is in Full-Stack Web Developing and I'm specializing in Computer Vision and Deep Learning</p>
+				<p class="separator">I'm involved in many organizations and groups outside of my studies including MHacks, dance groups, and music groups. I love playing soccer and volleyball with my friends, producing music, and playing Super Smash Bros. Melee 
+				</p>
+  
+			  </div>
+  
+			</div>
+		  </div>
 		</div>
-		<h3 class="line-paragraph2">
-			Currently studying computer science and music at the University of Michigan where I'm honing my skills to become a better software developer. My expertise is in Full-stack web developing and I have a high interest in computer vision and AI. I push myself everyday to learn something new, and I dream of making change in the world through my code someday.
-		</h3>
-		<br><br><br>
-		<h3 class="line-paragraph2">
-			I'm involved in many organizations and groups outside of my studies including MHacks, dance groups, and music groups. 
-		</h3>
-		<br><br><br>
-		<h3 class="line-paragraph2">
-			I love playing soccer and basketball with my friends, producing music, and spicy food. I'll play you in Super Smash Bros. any day, any time.
-		</h3>
+	  </div><!-- End About Section -->
+	  
+	  <!-- ======= Services Section ======= -->
+	  <div id="services">
+		<div class="container">
+  
+		  <div class="services-carousel owl-theme">
+  
+			<div class="services-block">
+			  <i class="ion-ios-browsers-outline"></i>
+			  <span>UI/UX DESIGN</span>
+			  <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+			</div>
+  
+			<div class="services-block">
+			  <i class="ion-ios-lightbulb-outline"></i>
+			  <span>BRAND IDENTITY</span>
+			  <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+			</div>
+  
+			<div class="services-block">
+			  <i class="ion-ios-color-wand-outline"></i>
+			  <span>WEB DESIGN</span>
+			  <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+			</div>
 
-		<br><br><br>
-	</div>
+			<div class="services-block">
+			  <i class="ion-social-android-outline"></i>
+			  <span>MOBILE APPS</span>
+			  <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+			</div>
+
+			<div class="services-block">
+			  <i class="ion-ios-analytics-outline"></i>
+			  <span>Analytics</span>
+			  <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+			</div>
+
+			<div class="services-block">
+			  <i class="ion-ios-camera-outline"></i>
+			  <span>PHOTOGRAPHY</span>
+			  <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+			</div>
+		  </div>
+		</div>
+	  </div><!-- End Services Section -->
 
 	<a name="jumplink2"></a>
 	<div class="projects">
@@ -251,18 +301,6 @@
 			</div>
 		</div>
 	</div>	
-<!--photo grid
-	<div class="activities">
-	</div>	
-
-	
-	<a name="jumplink4"></a>
-	<div class="resume">
-		<a href="documents/Andrew Kim Resume.pdf" target="_blank">
-			resume.pdf
-		</a>
-	</div>	-->
-
 	<a name="jumplink5"></a>
 	<div class="thankyou">
 		<h2 class="Header-summary-3">

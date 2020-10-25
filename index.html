@@ -1,310 +1,607 @@
-<!-- My website portfolio 5/24/2018 started -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-	<title>Andrew Kim</title>
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC|Prata" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="portfolio_style.css">
-	<style>
+    <title>Andrew D. Kim</title>
 
-		body, html {
-		  height: 100%;
-		}
-	</style>
-</head>
-	
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
 
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
+      rel="stylesheet"
+    />
 
-<body>
-	<!--header-->
-	<div class="main-header">
-		<div class="topnav">
-			<a class="active" href="#home"><img border="0" alt="Home" src="images/portfolio-logo.png" ></a>
-			<div class="topnav-right">
-				<a href="https://www.linkedin.com/in/andrewdkim47/">
-					<img border="0" alt="Linkedin" src="images/linkedin.png">
-				</a>
-				<a href="https://www.facebook.com/andrew.kim.3705">
-					<img border="0" alt="Facebook" src="images/facebook.png">
-				</a>
-				<a href="https://www.instagram.com/andrewdkim47_/">
-					<img border="0" alt="Instagram" src="images/insta.png">
-				</a>
-				<a href="https://github.com/andrewdkim47">
-					<img border="0" alt="Github" src="images/github.png">
-				</a>
-				<a href="mailto:andrewdkim47@gmail.com">
-					<img border="0" alt="Contact" src="images/emailicon.png">
-				</a>
-			</div>
-		</div>
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/hover/hover.min.css" rel="stylesheet" />
+    <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
 
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-		<div class="image-header">
-			<h1 class="Header-summary">Andrew Kim,</h1>
-			<!--<img src="images/unforseen pic.jpg" alt="biopic" width="35%" >-->
-			<h2 class="Header-summary-2">Fourth year software engineer studying at the University of Michigan</h2>
-		</div>
+    <!-- =======================================================
+  * Template Name: Folio - v2.1.0
+  * Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
 
-		<div class="jumplinks">
-				<a href="#jumplink1">
-					ABOUT
-				</a>
-				<a href="#jumplink2">
-					PROJECTS
-				</a>
-				<a href="#jumplink3">
-					MUSIC
-				</a>
-				
-				<a href="#jumplink5">
-					CONTACT
-				</a>			
-				<a href="documents/Andrew Kim Resume.pdf" target="_blank">
-					RESUME.pdf
-				</a>
-		</div>	
-	</div>
-	<!-- end of header-->
-	<a name="jumplink1"></a> 
-	<div class="about">
+  <body>
+    <!-- ======= Navbar ======= -->
+    <nav id="main-nav">
+      <div class="row">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="assets/img/logo.png" alt="logo"
+            /></a>
+          </div>
+          <div class="responsive">
+            <i data-icon="m" class="ion-navicon-round"></i>
+          </div>
+          <ul class="nav-menu list-unstyled">
+            <li><a href="index.html" class="smoothScroll">Home</a></li>
+            <li><a href="#about" class="smoothScroll">About</a></li>
+            <li><a href="#portfolio" class="smoothScroll">Projects</a></li>
+            <li><a href="#journal" class="smoothScroll">Music</a></li>
+            <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
 
-		<br><br><br>
-		<div class="line-title">
-			<h1 class="line-title-words"><span>About Andrew</span></h1>
-		</div>
-		<h3 class="line-paragraph2">
-			Currently studying computer science and music at the University of Michigan where I'm honing my skills to become a better software developer. My expertise is in Full-stack web developing and I have a high interest in computer vision and AI. I push myself everyday to learn something new, and I dream of making change in the world through my code someday.
-		</h3>
-		<br><br><br>
-		<h3 class="line-paragraph2">
-			I'm involved in many organizations and groups outside of my studies including MHacks, dance groups, and music groups. 
-		</h3>
-		<br><br><br>
-		<h3 class="line-paragraph2">
-			I love playing soccer and basketball with my friends, producing music, and spicy food. I'll play you in Super Smash Bros. any day, any time.
-		</h3>
+    <!-- ======= Hero Section ======= -->
+    <div id="hero" class="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1>I'm <span class="typed"></span></h1>
+          <p class="typed-items" data-typed-person="Andrew D. Kim">
+            a Software Engineer, a Full Stack Developer, a New Grad
+          </p>
+          <ul class="list-unstyled list-social">
+            <li>
+              <a href="https://www.linkedin.com/in/andrewdkim47/"
+                ><i class="ion-social-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/andrew.kim.3705"
+                ><i class="ion-social-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/andrewdkim47_/"
+                ><i class="ion-social-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/andrewdkim47"
+                ><i class="ion-social-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:andrewdkim47@gmail.com"
+                ><i class="ion-social-google"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero -->
 
-		<br><br><br>
-	</div>
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <div id="about" class="paddsection">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-4">
+              <div class="div-img-bg">
+                <div class="about-img">
+                  <img
+                    src="assets/img/me.jpg"
+                    class="img-responsive"
+                    alt="me"
+                  />
+                </div>
+              </div>
+            </div>
 
-	<a name="jumplink2"></a>
-	<div class="projects">
-		<br><br>
-		<div class="line-title">
-			<h1 class="line-title-words"><span>Projects</span></h1>
-		</div>
-		<h3 class="line-paragraph">
-			From C++ to Python, front-end to back-end. Here are some things I've been working on.
-		</h3>
+            <div class="col-lg-7">
+              <div class="about-descr">
+                <p class="p-heading">
+                  I'm a senior at the University of Michigan studying Computer
+                  Science and Music. My expertise is in Full-Stack Web
+                  Developing and I'm specializing in Computer Vision and Deep
+                  Learning
+                </p>
+                <p class="separator">
+                  I'm involved in many organizations and groups outside of my
+                  studies including MHacks, dance groups, and music groups. I
+                  love playing soccer and volleyball with my friends, producing
+                  music, and playing Super Smash Bros. Melee
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Section -->
 
-		<div class="layout_left">
-			<div class="margins_of_content_left">
-				<h1><img src="images/autoencoder.png" alt="Autoencoder" width="20%" ></h1>
-				<h2>AutoEncoder - 2020</h2>
-				<h3 class="description_left"> Built a TensorFlow/Keras autoencoder that uses machine learning methodology to compress data into a smaller scale version and decodes it back to an accurate representation of the original.</h3>
-			</div>
-		</div>
+      <!-- ======= Services Section ======= -->
+      <!-- https://infinitered.github.io/ionicons-version-3-search/-->
+      <div id="services">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2>Some of my Skillz</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="services-carousel owl-theme">
+            <div class="services-block">
+              <i class="ion-ios-list-outline"></i>
+              <span>C++/C</span>
+              <p class="separator">
+                My main language of choice, and what I am the most comfortable
+                coding in
+              </p>
+            </div>
+            <div class="services-block">
+              <i class="ion-social-python"></i>
+              <span>Python</span>
+              <p class="separator">
+                Completed numerous courses and projects using Python
+              </p>
+            </div>
+            <div class="services-block">
+              <i class="ion-social-javascript-outline"></i>
+              <span>React.js</span>
+              <p class="separator">
+                My main web app tool of choice, comfortable with Redux and
+                Socket Programming
+              </p>
+            </div>
+            <div class="services-block">
+              <i class="ion-social-github-outline"></i>
+              <span>Github/Git</span>
+              <p class="separator">
+                Adept with version control and working with a large team
+              </p>
+            </div>
+            <div class="services-block">
+              <i class="ion-ios-folder-outline"></i>
+              <span>Databases</span>
+              <p class="separator">
+                Utilized databases such as MySQL and PostgreSQL
+              </p>
+            </div>
+            <div class="services-block">
+              <i class="ion-ios-albums-outline"></i>
+              <span>Microsoft Suite</span>
+              <p class="separator">
+                Mastered word, powerpoint, and <stong>excel</stong>
+              </p>
+            </div>
+            <div class="services-block">
+              <i class="ion-ios-cloud-outline"></i>
+              <span>Creative Cloud</span>
+              <p class="separator">
+                Experience with adobe tools such as Illustrator, Premiere Pro,
+                and more.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Services Section -->
 
-		<div class="layout_left">
-			<div class="margins_of_content_left">
-				<h1><img src="images/threadlibrary.png" alt="thread library" width="20%"></h1>
-				<h2>Custom Thread Library - 2020</h2>
-				<h3 class="description_left">Designed a user-friendly thread library in C++ that includes threads, mutexes, and conditional variables; Worked with PImpls, RAII wrappers, and Linux ucontexts.</h3>
-			</div>
-		</div>
+      <!-- ======= Project Section ======= -->
+      <div id="journal" class="text-left paddsection">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2>Projects</h2>
+          </div>
+        </div>
 
-		<div class="layout_left">
-			<div class="margins_of_content_left">
-				<h1><img src="images/covid.png" alt="covid-19 visualizer" width="20%" ></h1>
-				<h2>Covid-19 Stock Visualizer - 2019</h2>
-				<h3 class="description_left">Programmed a stock fluctuation visualizer that creates a graph based on a specific company’s stock changes during Covid-19 developments. Developed in Python. </h3>
-			</div>
-		</div>
+        <div class="container">
+          <div class="journal-block">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="journal-info">
+                  <a href="blog-single.html"
+                    ><img
+                      src="assets/img/portfolio/portfolio-1.png"
+                      class="img-responsive"
+                      alt="img"
+                  /></a>
 
-		<div class="layout_left">
-			<div class="margins_of_content_left">
-				<h1><img src="images/redditlogo.jpg" alt="tierbot" width="20%" ></h1>
-				<h2>!tierbot - Spring 2018</h2>
-				<h3 class="description_left">Applied the Reddit API in Python to create a Reddit bot that responds to provides users with the latest Super Smash Bros. character tierlist for every iteration of the game. </h3>
-			</div>
-		</div>
+                  <div class="journal-txt">
+                    <h4>
+                      <a href="blog-single.html"
+                        >MACHINE LEARNING AUTOENCODER</a
+                      >
+                    </h4>
+                    <p class="separator">
+                      Built a Tensorflow/Keras autoencoder that uses ML
+                      methodology to compress data into a smaller scale version
+                      and decoes it back to a represetnation of the original
+                    </p>
+                  </div>
+                </div>
 
-		<div class="layout_left">
-			<div class="margins_of_content_left">
-				<h1><img src="images/sql.png" alt="sql" width="20%" ></h1>
-				<h2>Silly Query Language - 2018 Data Structures and Algorithms</h2>
-				<h3 class="description_left">Created a relational database using structs and maps to quickly edit, insert, update, and modify data in C++. Implemented a custom structured query language that allows for data manipulation such as joining existing data through the use of hash tables and binary search trees. </h3>
-			</div>
-		</div>
-	</div>
-	
-	<a name="jumplink3"></a>
-	<script>
-		function play(){
-			var audio = document.getElementById("tarnished");
-			audio.play();
-		}
-	</script>
-	<div class="music">
-		<div class="line-title">
-			<h1 class="line-title-words"><span>Music Projects</span></h1>
-		</div>
-		<h3 class="line-paragraph">
-			I make music in my free time, here's a glimpse. 
-		</h3>
-		<!--photo grid-->
-		<div class="photo-grid">
-			<div class="row">
-				<div class="column">
-					<div class="container">
-						<img border="0" alt="Silver Rain" src="images/silverrain.jpg" width=100%>
-			  			<div class="overlay">
-			  				<h3 class="Header-summary-4">
-								Silver Rain
-							</h3>
-						 	<div class="text">
-						 		<audio controls loop>
-									<source src="music/SilverRain3.mp3">
-									Your browser does not support the audio element.
-								</audio>
-						 	</div>
-						</div>
-					</div>
-					<div class="container">
-						<img border="0" alt="Clip" src="images/oldboypic.gif" width=100%">
-			  			<div class="overlay">
-			  				<h3 class="Header-summary-4">
-								Clipped
-							</h3>
-						 	<div class="text">
-						 		<audio controls loop>
-				  					<source src="music/Clip.mp3">
-										Your browser does not support the audio element.
-								</audio>
-						 	</div>
-						</div>
-					</div>					
-				</div>
-				<div class="column">
-					<div class="container">
-						<img border="0" alt="Graphic Design" src="images/mooon.png" width=100%>
-			  			<div class="overlay">
-			  				<h3 class="Header-summary-4">
-								mooon
-							</h3>			  				
-						 	<div class="text">
-						 		<audio controls loop>
-									<source src="music/mooonaudio1.mp3">
-									Your browser does not support the audio element.
-								</audio>
-						 	</div>
-						</div>
-					</div>
-					<div class="container">
-						<img border="0" alt="tablefornone" src="images/blandlands.jpg" width=100%>
-			  			<div class="overlay">
-			  				<h3 class="Header-summary-4">
-								Table for None
-							</h3>
-					 		<div class="text">
-					 			<audio controls loop>
-									<source src="music/table for none instrumental final.mp3">
-									Your browser does not support the audio element.
-								</audio>
-					 		</div>
-						</div>
-					</div>
-				</div>
-				<div class="column">
-					<div class="container">
-						<img border="0" alt="hanyak" src="images/hanyak art.jpg" width=100%>
-			  			<div class="overlay">
-			  				<h3 class="Header-summary-4">
-								Hanyak (한약)
-							</h3>
-						 	<div class="text">
-					 			<audio controls loop>
-									<source src="music/hanyak (한약).mp3">
-									Your browser does not support the audio element.
-								</audio>
-						 	</div>
-						</div>
-					</div>
-					<div class="container">
-						<img border="0" alt="Maginot Line" src="images/MICSWAGGER.jpg" width=100%>
-			  			<div class="overlay">
-			  				<h3 class="Header-summary-4">
-								Maginot Line (MICSWG BPM Challenge)
-							</h3>
-						 	<div class="text">
-						 		<audio controls loop>
-									<source src="music/beat_w_ignito_5.wav">
-									Your browser does not support the audio element.
-								</audio>
-						 	</div>
-						</div>
-					</div>					
-				</div>
-			</div>
-		</div>
-	</div>	
-<!--photo grid
-	<div class="activities">
-	</div>	
+                <div class="journal-info">
+                  <a href="blog-single.html"
+                    ><img
+                      src="assets/img/portfolio/portfolio-4.jpg"
+                      class="img-responsive"
+                      alt="img"
+                  /></a>
 
-	
-	<a name="jumplink4"></a>
-	<div class="resume">
-		<a href="documents/Andrew Kim Resume.pdf" target="_blank">
-			resume.pdf
-		</a>
-	</div>	-->
+                  <div class="journal-txt">
+                    <h4>
+                      <a href="blog-single.html">PLOPPER</a>
+                    </h4>
+                    <p class="separator">
+                      Designed a crowd-sourced review forum that allows users to
+                      intuitively rate and review nearby bathrooms. Worked with
+                      Google Maps API, Javascript, and HTML/CSS
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-	<a name="jumplink5"></a>
-	<div class="thankyou">
-		<h2 class="Header-summary-3">
-			Thanks for Scrolling!
-		</h2>
-		<h3 class="Header-summary-4">
-			Feel free to contact me anytime.
-		</h3>
+              <div class="col-lg-4 col-md-6">
+                <div class="journal-info">
+                  <a href="blog-single.html"
+                    ><img
+                      src="assets/img/portfolio/portfolio-2.jpg"
+                      class="img-responsive"
+                      alt="img"
+                  /></a>
 
-		<div class="contact-bar">
-			<div class= "inline-block">
-				<a href="https://www.linkedin.com/in/adkimmy">
-					<img border="0" alt="Linkedin" src="images/linkedin.png">
-				</a>
-			</div>
-			<div class= "inline-block">
-				<a href="https://www.facebook.com/andrew.kim.3705">
-					<img border="0" alt="Facebook" src="images/facebook.png">
-				</a>
-			</div>
-			<div class= "inline-block">
-				<a href="https://www.instagram.com/andrewdkim47_/">
-					<img border="0" alt="Instagram" src="images/insta.png">
-				</a>
-			</div>
-			<div class= "inline-block">
-				<a href="https://github.com/andrewdkim47">
-					<img border="0" alt="Github" src="images/github.png">
-				</a>
-			</div>
-			<div class= "inline-block">
-				<a href="mailto:adkimmy@umich.com">
-					<img border="0" alt="Contact" src="images/emailicon.png">
-				</a>
-			</div>
-		</div>	
+                  <div class="journal-txt">
+                    <h4>
+                      <a href="blog-single.html">CUSTOM THREAD LIBRARY</a>
+                    </h4>
+                    <p class="separator">
+                      Designed a user-friendly thread library in C++ that
+                      includes threads, mutexes, and conditional variables;
+                      Worked with Pimpls, RAII wrappers, and Linux ucontexts
+                    </p>
+                  </div>
+                </div>
 
-		<h3 class="Header-summary-5">
-			&copy; Andrew Kim 2020
-		</h3>
+                <div class="journal-info">
+                  <a href="blog-single.html"
+                    ><img
+                      src="assets/img/portfolio/portfolio-5.png"
+                      class="img-responsive"
+                      alt="img"
+                  /></a>
 
-	</div>
+                  <div class="journal-txt">
+                    <h4>
+                      <a href="blog-single.html">CV SMASH COMBO GENERATOR</a>
+                    </h4>
+                    <p class="separator">
+                      Creating a web app that allows users to submit gameplay
+                      footage of Super Smash Bros. and automatically identifies
+                      combos and generates a collage for the user
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-</body>
+              <div class="col-lg-4 col-md-6">
+                <div class="journal-info">
+                  <a href="blog-single.html"
+                    ><img
+                      src="assets/img/portfolio/portfolio-3.png"
+                      class="img-responsive"
+                      alt="img"
+                  /></a>
+
+                  <div class="journal-txt">
+                    <h4>
+                      <a href="blog-single.html">COVID-19 STOCK VISUALIZER</a>
+                    </h4>
+                    <p class="separator">
+                      Programmed a stock fluctuation visualizer that creates a
+                      graph based on a specific company’s stock changes during
+                      Covid-19 developments. Developed in Python.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="journal-info">
+                  <a href="blog-single.html"
+                    ><img
+                      src="assets/img/portfolio/portfolio-6.jpg"
+                      class="img-responsive"
+                      alt="img"
+                  /></a>
+
+                  <div class="journal-txt">
+                    <h4>
+                      <a href="blog-single.html">REDDIT TIER BOT</a>
+                    </h4>
+                    <p class="separator">
+                      Applied a Reddit API in python to create a Reddit bot that
+                      responds to the user commend "!Tierbot" Quickly looks up
+                      the latest character tierlist for any Super Smash Bros
+                      Iteration.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Journal Section -->
+
+      <!-- ======= Music Section ======= -->
+      <div id="journal2" class="text-left paddsection">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2>Music</h2>
+            <br />
+            <h4>
+              <a href="https://soundcloud.com/adboi-35969275">Soundcloud</a> |
+              <a
+                href="https://www.youtube.com/channel/UCStPASLlirNnjlWk6dTmPww/videos"
+                >Youtube</a
+              >
+              |
+              <a href="https://www.youtube.com/channel/UCtoAH3-kxrXRsiL27dIdBRg"
+                >Seoul Juice</a
+              >
+            </h4>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="journal-block">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="journal-info">
+                  <iframe
+                    width="100%"
+                    height="300"
+                    scrolling="no"
+                    frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/874149469&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                  ></iframe>
+                  <div
+                    style="
+                      font-size: 10px;
+                      color: #cccccc;
+                      line-break: anywhere;
+                      word-break: normal;
+                      overflow: hidden;
+                      white-space: nowrap;
+                      text-overflow: ellipsis;
+                      font-family: Interstate, Lucida Grande,
+                        Lucida Sans Unicode, Lucida Sans, Garuda, Verdana,
+                        Tahoma, sans-serif;
+                      font-weight: 100;
+                    "
+                  >
+                    <a
+                      href="https://soundcloud.com/adboi-35969275"
+                      title="adk"
+                      target="_blank"
+                      style="color: #cccccc; text-decoration: none"
+                      >adk</a
+                    >
+                    ·
+                    <a
+                      href="https://soundcloud.com/adboi-35969275/running-through-the-night-recreation"
+                      title="Running Through The Night Recreation"
+                      target="_blank"
+                      style="color: #cccccc; text-decoration: none"
+                      >Running Through The Night Recreation</a
+                    >
+                  </div>
+                  <p class="separator">
+                    Built a Tensorflow/Keras autoencoder that uses ML
+                    methodology to compress data into a smaller scale version
+                    and decoes it back to a represetnation of the original
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="journal-info">
+                  <iframe
+                    width="100%"
+                    height="300"
+                    scrolling="no"
+                    frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/869082682&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                  ></iframe>
+                  <div
+                    style="
+                      font-size: 10px;
+                      color: #cccccc;
+                      line-break: anywhere;
+                      word-break: normal;
+                      overflow: hidden;
+                      white-space: nowrap;
+                      text-overflow: ellipsis;
+                      font-family: Interstate, Lucida Grande,
+                        Lucida Sans Unicode, Lucida Sans, Garuda, Verdana,
+                        Tahoma, sans-serif;
+                      font-weight: 100;
+                    "
+                  >
+                    <a
+                      href="https://soundcloud.com/adboi-35969275"
+                      title="adk"
+                      target="_blank"
+                      style="color: #cccccc; text-decoration: none"
+                      >adk</a
+                    >
+                    ·
+                    <a
+                      href="https://soundcloud.com/adboi-35969275/i-threw-away-the-raspberry-sorbet"
+                      title="I Threw Away the Raspberry Sorbet"
+                      target="_blank"
+                      style="color: #cccccc; text-decoration: none"
+                      >I Threw Away the Raspberry Sorbet</a
+                    >
+                  </div>
+                  <p class="separator">
+                    Built a Tensorflow/Keras autoencoder that uses ML
+                    methodology to compress data into a smaller scale version
+                    and decoes it back to a represetnation of the original
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="journal-info">
+                  <iframe
+                    width="100%"
+                    height="300"
+                    scrolling="no"
+                    frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/869079349&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                  ></iframe>
+                  <div
+                    style="
+                      font-size: 10px;
+                      color: #cccccc;
+                      line-break: anywhere;
+                      word-break: normal;
+                      overflow: hidden;
+                      white-space: nowrap;
+                      text-overflow: ellipsis;
+                      font-family: Interstate, Lucida Grande,
+                        Lucida Sans Unicode, Lucida Sans, Garuda, Verdana,
+                        Tahoma, sans-serif;
+                      font-weight: 100;
+                    "
+                  >
+                    <a
+                      href="https://soundcloud.com/adboi-35969275"
+                      title="adk"
+                      target="_blank"
+                      style="color: #cccccc; text-decoration: none"
+                      >adk</a
+                    >
+                    ·
+                    <a
+                      href="https://soundcloud.com/adboi-35969275/silver-rain"
+                      title="Silver Rain"
+                      target="_blank"
+                      style="color: #cccccc; text-decoration: none"
+                      >Silver Rain</a
+                    >
+                  </div>
+                  <p class="separator">
+                    Built a Tensorflow/Keras autoencoder that uses ML
+                    methodology to compress data into a smaller scale version
+                    and decoes it back to a represetnation of the original
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Journal Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <div id="contact" class="paddsection">
+        <div class="container">
+          <div class="contact-block1">
+            <div class="section-title text-center">
+              <div class="contact-contact">
+                <h2 class="mb-30">GET IN TOUCH</h2>
+                <ul class="contact-details">
+                  <li><span>1333 Wilmot St.</span></li>
+                  <li><span>Ann Arbor, Michigan</span></li>
+                  <li><span>andrewdkim47@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <div id="footer" class="text-center">
+      <div class="container">
+        <div class="socials-media text-center">
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.linkedin.com/in/andrewdkim47/"
+                ><i class="ion-social-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/andrew.kim.3705"
+                ><i class="ion-social-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/andrewdkim47_/"
+                ><i class="ion-social-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/andrewdkim47"
+                ><i class="ion-social-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:andrewdkim47@gmail.com"
+                ><i class="ion-social-google"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <p>&copy; Andrew Kim 2020</p>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/typed/typed.js"></script>
+    <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

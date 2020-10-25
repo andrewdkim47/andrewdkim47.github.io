@@ -11,7 +11,7 @@
 body {
   background: #ffffff;
   color: #898989;
-  font-family: 'Poppins', helvetica;
+  font-family: "Poppins", helvetica;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -24,7 +24,12 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -49,8 +54,9 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover, a:focus {
-  color: #0066CC;
+a:hover,
+a:focus {
+  color: #0066cc;
   text-decoration: underline;
 }
 
@@ -76,12 +82,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #0066CC;
+  background: #0066cc;
   color: #fff;
 }
 
 ::selection {
-  background: #0066CC;
+  background: #0066cc;
   color: #fff;
 }
 
@@ -97,7 +103,8 @@ p {
   text-transform: uppercase;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   color: #fff;
 }
 
@@ -150,7 +157,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #0066CC;
+  background: #0066cc;
 }
 
 .mb-30 {
@@ -184,7 +191,7 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   margin-left: 40px;
 }
@@ -195,7 +202,7 @@ nav ul li a {
   display: block;
   font-size: 14px;
   color: #999999;
-  font-family: 'Poppins', helvetica;
+  font-family: "Poppins", helvetica;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
@@ -248,7 +255,7 @@ nav ul li a {
 }
 
 .hero-content p {
-  font-size: 13px;
+  font-size: 18px;
   letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -264,7 +271,7 @@ nav ul li a {
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -338,7 +345,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #0066CC;
+  border: 20px solid #0066cc;
 }
 
 #about .div-img-bg .about-img img {
@@ -352,7 +359,7 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 28px;
   text-align: left;
 }
@@ -395,7 +402,7 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #0066CC;
+  color: #0066cc;
   line-height: 44px;
 }
 
@@ -421,7 +428,7 @@ nav ul li a {
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #0066CC;
+  background-color: #0066cc;
 }
 
 .owl-nav {
@@ -458,8 +465,9 @@ nav ul li a {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: #0066CC;
+#portfolio #portfolio-flters li:hover,
+#portfolio #portfolio-flters li.filter-active {
+  color: #0066cc;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -496,15 +504,17 @@ nav ul li a {
   padding: 0;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
+#portfolio .portfolio-item .portfolio-info .preview-link,
+#portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #0066CC;
+  color: #0066cc;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
+#portfolio .portfolio-item .portfolio-info .preview-link:hover,
+#portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #cab89f;
 }
 
@@ -533,7 +543,8 @@ nav ul li a {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
@@ -548,7 +559,7 @@ nav ul li a {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #0066CC !important;
+  background-color: #0066cc !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -607,7 +618,8 @@ nav ul li a {
 /*--------------------------------------------------------------
 # Journal
 --------------------------------------------------------------*/
-#journal, #journal-blog {
+#journal,
+#journal-blog {
   height: auto;
   width: 100%;
   background: #f7f7f7;
@@ -650,7 +662,7 @@ nav ul li a {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #0066CC;
+  color: #0066cc;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -678,7 +690,8 @@ nav ul li a {
   padding-bottom: 10px;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 100%;
   margin-bottom: 5px;
 }
@@ -730,7 +743,7 @@ nav ul li a {
 }
 
 .journal-txt h4 a:hover {
-  color: #0066CC;
+  color: #0066cc;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -814,7 +827,7 @@ blockquote {
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid #0066CC;
+  border-left: 4px solid #0066cc;
 }
 
 /*--------------------------------------------------------------
@@ -853,7 +866,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #0066CC;
+  color: #0066cc;
   transition: all 0.5s ease-in-out 0s;
 }
 

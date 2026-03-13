@@ -232,9 +232,18 @@ nav ul li a {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  background: url("../img/me_in_brooklyn_with_headband.JPG") repeat scroll center center/cover;
   height: 100vh;
   width: 100%;
+  position: relative;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  pointer-events: none;
 }
 
 #hero .hero-content {
@@ -244,6 +253,8 @@ nav ul li a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .hero-content h1 {

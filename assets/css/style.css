@@ -122,6 +122,71 @@ p {
   text-transform: uppercase;
 }
 
+.music-links {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.music-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #292929;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.music-link:hover,
+.music-link:focus {
+  background: #0066cc;
+  border-color: #0066cc;
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.blog-intro {
+  margin: 12px auto 0;
+  max-width: 720px;
+}
+
+.blog-card {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 22px 20px;
+  height: 100%;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.06);
+}
+
+.blog-card-title {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.blog-card-meta {
+  margin: 0 0 12px 0;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.blog-card-excerpt {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+}
+
 .form-control {
   background-color: transparent;
   border: 1px solid #999;
